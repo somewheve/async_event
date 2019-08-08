@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     EVENT_TIME = "timer"
     # 创建引擎对象
-    engine = AsyncEngine(work_core=200)
+    engine = AsyncEngine(work_core=500)
 
 
     async def func(data):
